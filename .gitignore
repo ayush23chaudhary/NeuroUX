@@ -1,0 +1,79 @@
+# Documentation (except README)
+00_START_HERE.md
+ARCHITECTURE.md
+COMPLETION_REPORT.txt
+DELIVERY_COMPLETE.md
+DEPLOYMENT.md
+FILE_STRUCTURE.md
+FINAL_VERIFICATION.txt
+INDEX.md
+PROJECT_SUMMARY.md
+QUICKSTART.md
+TESTING.md
+VISUAL_SUMMARY.txt
+.github/copilot-instructions.md
+*.txt
+
+# Backend Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vscode/
+frontend/.idea/
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MongoDB
+mongodb/
+data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
